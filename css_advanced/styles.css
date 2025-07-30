@@ -1,0 +1,235 @@
+*{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+} 
+html{ 
+    font-size: 16px; 
+} 
+body{ 
+    font-family: Arial, Helvetica, sans-serif; 
+} 
+header{ 
+    background: url('./images/Object.png') no-repeat center 
+center/cover; 
+    height: 100vh; 
+   color: aliceblue; 
+} 
+.navbar{ 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px 50px; 
+} 
+.nav-links{ 
+    display: flex; 
+    list-style: none; 
+ 
+} 
+.nav-links a{ 
+    padding-right: 10px; 
+    padding-left: 10px; 
+    color: aliceblue; 
+    text-decoration: none; 
+} 
+.nav-links a:hover{ 
+    text-decoration: underline; 
+    text-decoration-color: rgb(245, 53, 165); 
+    text-decoration-thickness: 2px; 
+} 
+.hero{ 
+    text-align: center; 
+    margin-top: 30px; 
+} 
+.hero-info h1{ 
+    font-size: 3rem; 
+    padding: 15px; 
+} 
+.hero button{ 
+    margin: 15px; 
+    padding: 5px 10px; 
+    border-radius: 15px; 
+    border: none; 
+    background-color: blueviolet; 
+    color: aliceblue; 
+} 
+.hero-container{ 
+    margin-top: 40px; 
+} 
+.images-container{ 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+} 
+.image img{ 
+    width:  100px; 
+    border-radius: 80%; 
+ 
+} 
+.image{ 
+    margin-top: 5vh; 
+    font-size: 12px; 
+    padding: 5px; 
+} 
+.span{ 
+    color: rgb(248, 3, 248); 
+} 
+.tutor{ 
+    background-color:rgb(195, 90, 236) ; 
+    width: 100%; 
+    height: 200px; 
+ 
+  
+} 
+.tutor-container{ 
+  margin-left: 30px; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+ padding-top: 15px; 
+} 
+.tutor-container img{ 
+    width: 100px; 
+    padding: 10px; 
+} 
+.tutor-container blockquote, 
+ .tutor-container h3, 
+ .tutor-container p{ 
+   padding: 10px; 
+} 
+ 
+ 
+ .grid-container { 
+  display: flex; 
+  justify-content: space-between; 
+  gap: 10px; 
+  padding: 20px; 
+  flex-wrap: nowrap; 
+  overflow-x: auto; 
+    
+    font-size: 10px; 
+} 
+ 
+.card { 
+  min-width: 0; 
+  text-align: center; 
+  position: relative; 
+} 
+ 
+.card img { 
+  width: 100%; 
+  height: auto; 
+  max-width: 200px; 
+  object-fit: cover; 
+  border-radius: 10px; 
+} 
+ .card .paly{ 
+    position: absolute; 
+    top: 18%; 
+    left: 50%; 
+    transform: translate(-50% , -50%); 
+    width: 35px; 
+    max-width: 40px; 
+ } 
+ .tutorials h2{ 
+    text-align: center; 
+ } 
+.membership{ 
+    text-align: center; 
+    background-color: rgb(1, 1, 43); 
+    color: aliceblue; 
+    padding: 30px; 
+ 
+} 
+.free{ 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+} 
+ 
+.membership button{ 
+ 
+margin: 15px; 
+    padding: 5px 10px; 
+    border-radius: 15px; 
+    border: none; 
+    background-color: blueviolet; 
+    color: aliceblue; 
+} 
+.member{ 
+    font-size: 12px; 
+    padding: 10px; 
+} 
+.membership h2{ 
+    padding: 20px; 
+} 
+.member  p{ 
+    padding: 10px; 
+} 
+.member h3{ 
+    padding: 10px; 
+} 
+ .faq-comtainer{ 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+} 
+ .flex-container{ 
+    padding: 20px; 
+    font-size: 12px; 
+ } 
+ .faq h2{ 
+    text-align: center; 
+    padding-top: 20px; 
+ } 
+  
+ .lorem{ 
+    padding: 20px; 
+ } 
+.lorem h3{ 
+    padding: 10px; 
+} 
+.footer{ 
+    background-color: hsl(246, 87%, 9%); 
+    color: white; 
+} 
+.footer-container{ 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center ; 
+    padding: 20px 50px; 
+} 
+.footer p{ 
+ text-align: center; 
+ padding: 10px; 
+} 
+ .philip{ 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+ } 
+ .philip img{ 
+    width: 30px; 
+ 
+ } 
+.philip h4{ 
+padding: 20px; 
+} 
+.review{ 
+display: flex; 
+justify-content: center; 
+align-items: center; 
+color: rgb(240, 42, 223); 
+} 
+.review p{ 
+padding-left: 20px; 
+} 
+.rate{ 
+color: rgb(150, 107, 137); 
+} 
+.review img{
+    width: 70px;
+} 
+.footer-images img{
+    width: 50px;
+}

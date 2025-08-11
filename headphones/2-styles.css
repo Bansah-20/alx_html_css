@@ -1,0 +1,176 @@
+a:hover, a:active { color: var(--link-hover); }
+.btn:hover, .btn:active { opacity: var(--btn-hover-opacity); }
+
+@media (max-width:480px){
+  .main-nav { display:none; }
+  .menu-btn { display:block; } 
+  .hero-content h1 { font-size: 2rem; } 
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('./assets/fonts/source-sans-pro/') format('truetype');
+}
+
+@font-face {
+  font-family: 'Spin Cycle OT';
+  src: url('./assets/fonts/Spin-Cycle-OT/') format('opentype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --primary-color: #FF6565;
+    --max-width: 1000px;
+    --font-main: 'Source Sans Pro', sans-serif;
+}
+
+
+body {
+    font-family: var(--font-main);
+    color: #333;
+}
+
+
+header {
+    background: url("assets/images/hero-bg.jpg") no-repeat center center/cover;
+    color: white;
+    padding: 20px 0;
+}
+
+header .container {
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 0 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--primary-color);
+}
+
+.hero {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    margin: 20px 0;
+}
+
+.hero button {
+    background-color: var(--primary-color);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    opacity: 0.9;
+}
+
+
+#what-we-do {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#what-we-do .container {
+    max-width: var(--max-width);
+    margin: auto;
+}
+
+.what-we-do-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.what-we-do-items .item {
+    padding: 20px;
+}
+
+.what-we-do-items span {
+    font-size: 50px;
+    color: var(--primary-color);
+}
+
+.what-we-do-items h3 {
+    margin: 15px 0;
+}
+
+.what-we-do-items p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+
+@media (max-width: 480px) {
+    nav ul {
+        display: none; 
+    }
+
+    .hero {
+        margin-top: 50px;
+    }
+}
+
+.our-results {
+    background: url("assets/images/hero-bg2.jpg") no-repeat center/cover;
+    text-align: center;
+    padding: 50px 20px;
+    color: white;
+}
+.results-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+.result {
+    position: relative;
+    width: 150px;
+}
+.result img {
+    width: 100%;
+}
+.result p {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+

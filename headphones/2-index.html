@@ -8,87 +8,171 @@
     <link rel="stylesheet" href="fonts/source-sans-pro.css" />
     <link rel="stylesheet" href="fonts/spin-cycle-ot.css" />
 
-    <link rel="stylesheet" href="icons/holberton_school-icon.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/15.9.0/simpleicons.svg"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <link rel="stylesheet" href="1-styles.css" />
   </head>
   <body>
     <header>
-      <div class="container">
-        <nav>
-          <div class="logo">
-            <img
-              src="assets/images/logo_headphones.png"
-              alt="Headphones Logo"
-            />
-          </div>
-          <ul class="nav-links">
-            <li><a href="#what-we-do">What we do</a></li>
-            <li><a href="#our-results">Our results</a></li>
-            <li><a href="#contact">Contact us</a></li>
-          </ul>
-        </nav>
-        <div class="hero">
-          <h1>Lorem ipsum dolor set amet lorem ipsum</h1>
-          <p>Lorem ipsum dolor set amet lorem ipsum dolor set</p>
-          <button>CALL TO ACTION</button>
-        </div>
-      </div>
+      <nav>
+        <ul class="navbar">
+          <li class="logo">
+            <a href="#"
+              ><img src="assets/images/logo_headphones.png" alt="logo"
+            /></a>
+          </li>
+          <input type="checkbox" id="check" />
+          <span class="menu">
+            <li><a href="#">What we do</a></li>
+            <li><a href="#">Our results</a></li>
+            <li><a href="#">Contact us</a></li>
+            <label for="check" class="close-menu"
+              ><i class="fas fa-times"></i
+            ></label>
+          </span>
+          <label for="check" class="open-menu"
+            ><i class="fas fa-bars"></i
+          ></label>
+        </ul>
+      </nav>
+
+      <section class="hero-section">
+        <h1>Lorem ipsum dolor set amet lorem ipsum</h1>
+        <p class="myP1">Lorem ipsum dolor set amet lorem ipsum dolor set</p>
+        <button type="submit" class="myButton">CALL TO ACTION</button>
+
+        <p class="lorem">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur in
+          suscipit praesentium assumenda sit dicta rem. Lorem ipsum dolor sit
+          amet consectetur adipisicing elit. Pariatur in suscipit praesentium
+          assumenda sit dicta rem. Eius, maxime sint consequuntur provident
+          quasi sit natus fugiat recusandae omnis dignissimos tempore quisquam?
+        </p>
+      </section>
     </header>
 
-    <section id="what-we-do">
-      <div class="container">
-        <h2>What we do...</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
-          odio. Praesent libero. Sed cursus ante dapibus diam.
+    <main>
+      <section id="What-we-do">
+        <h2>What We Do...</h2>
+        <p class="What-we-do-section">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ut quia
+          libero voluptatum et quod reprehenderit minima expedita quos nulla
+          doloremque, ullam architecto amet. Sequi sit hic tempora perspiciatis
+          quas. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas
+          maiores impedit non recusandae? Modi ad consequuntur incidunt saepe.
+          Magnam, adipisci nostrum dolores repellat labore ullam cupiditate in
+          cumque fuga ducimus.
         </p>
-        <div class="what-we-do-items">
-          <div class="item">
-            <span class="holberton_school-icon-ic_sound"></span>
+        <div id="icons-container">
+          <div class="service">
+            <img src="assets/images/wave.png" />
             <h3>Lorem ipsum</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>
+              Lorem ipsum dolor sit amet,<br />
+              consectetur adipisicing elit.
+            </p>
           </div>
-          <div class="item">
-            <span class="holberton_school-icon-ic_video"></span>
+          <div class="service">
+            <img src="assets/images/movie.png" />
             <h3>Lorem ipsum</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>
+              Lorem ipsum dolor sit amet,<br />
+              consectetur adipisicing elit.
+            </p>
           </div>
-          <div class="item">
-            <span class="holberton_school-icon-ic_music"></span>
+          <div class="service">
+            <img src="assets/images/music.png" />
             <h3>Lorem ipsum</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>
+              Lorem ipsum dolor sit amet,<br />
+              consectetur adipisicing elit.
+            </p>
           </div>
-          <div class="item">
-            <span class="holberton_school-icon-ic_hearing"></span>
+          <div class="service">
+            <img src="assets/images/ear.png" />
             <h3>Lorem ipsum</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>
+              Lorem ipsum dolor sit amet,<br />
+              consectetur adipisicing elit.
+            </p>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <section id="our-results">
+        <h2>Our results speaks for themselves</h2>
+        <p class="our">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt
+          nisi ipsam optio odit. Fugiat in reiciendis a ab ex nihil iste amet
+          nam quas, dolorem vero! Reprehenderit mollitia praesentium alias?Lorem
+          ipsum dolor sit amet, consectetur adipisicing elit. Deserunt nisi
+          ipsam optio odit. Fugiat in reiciendis a ab ex nihil iste amet nam
+          quas, dolorem vero! Reprehenderit mollitia praesentium alias
+        </p>
 
-    <section class="our-results">
-      <h2>Our results speak for themselves</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
-      <div class="results-container">
-        <div class="result">
-          <img src="assets/images/pentagone.png" alt="Pentagon 1" />
-          <p>+2%</p>
+        <div id="clip-path-container">
+          <div class="clip-path">
+            <h3>+2%</h3>
+            <p>Lorem ipsum dolor</p>
+          </div>
+          <div class="clip-path">
+            <h3>+2%</h3>
+            <p>Lorem ipsum dolor</p>
+          </div>
+          <div class="clip-path">
+            <h3>+2%</h3>
+            <p>Lorem ipsum dolor</p>
+          </div>
+          <div class="clip-path">
+            <h3>+2%</h3>
+            <p>Lorem ipsum dolor</p>
+          </div>
         </div>
-        <div class="result">
-          <img src="assets/images/pentagone.png" alt="Pentagon 2" />
-          <p>+50%</p>
+      </section>
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="form-wrap">
+          <form action="#" method="post">
+            <label for="name">Name:</label
+            ><input type="text" id="name" name="myname" /><br /><br />
+            <label for="email">Email:</label
+            ><input type="email" id="email" name="email" /><br />
+            <label>Your meassage:</label>
+            <textarea type="text" cols="15" rows="2"></textarea><br /><br />
+            <button type="submit" class="myButton">CALL TO ACTION</button>
+          </form>
         </div>
-        <div class="result">
-          <img src="assets/images/pentagone.png" alt="Pentagon 3" />
-          <p>+100%</p>
-        </div>
-        <div class="result">
-          <img src="assets/images/pentagone.png" alt="Pentagon 4" />
-          <p>+150%</p>
+      </section>
+    </main>
+    <footer>
+      <div class="foot-container">
+        <img src="assets/images/logo_headphones.png" />
+        <div class="social-links">
+          <a href="https://github.com/dashboard" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/kelvin-bansah-a47849358/"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://x.com/YoboWan_" target="_blank"
+            ><i class="fab fa-x-twitter"></i
+          ></a>
         </div>
       </div>
-    </section>
+      <p>&copy;Headphones 2025</p>
+    </footer>
+    <script src="./8-script.js"></script>
   </body>
 </html>
